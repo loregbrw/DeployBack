@@ -31,7 +31,6 @@ const buildSettings = () => {
         username: username,
         password: password,
         database: database,
-        synchronize: true,
         entities: [entitiesPath],
         migrations: [migrationPath],
         options: {
